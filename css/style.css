@@ -1,0 +1,48 @@
+
+#timer {
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 22px;
+    width: 70%;
+    margin: 0 auto;
+    background: #ffff00;
+}
+
+#milsec {
+    border: none;
+    text-align: center;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 18px;
+    width: 25%;
+    margin: 0 auto;
+    background: #ffff00;
+}
+
+.btn {
+    height: 50px;
+    width: 150px;
+}
+
+form {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.wrapper-button {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter {
+    width: 100%;
+    margin: 35px auto;
+    color: green;
+}
+
+input {
+    text-align: center;
+}
