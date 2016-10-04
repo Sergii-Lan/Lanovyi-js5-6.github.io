@@ -21,8 +21,8 @@ function start_click() {
         console.log(buttonStart);
 
         timerId = setInterval(function () {
-            counter +=10; //global
-            local +=10;
+            counter +=11; //global
+            local +=11;
             mil_sec = local;
             if(local < 100) {
                 milsec.innerHTML = '0'+local;
@@ -49,7 +49,7 @@ function start_click() {
             }
             timer.innerHTML = h+':'+min+':'+sec;
 
-        }, 10);
+        }, 11);
     } else {
         buttonStart.innerHTML = 'start';
         clearInterval(timerId);
